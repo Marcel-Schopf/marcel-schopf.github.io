@@ -1,0 +1,138 @@
+/*Navigationsbaranfang*/
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+li
+{
+  float: left;
+}
+li a
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover
+{
+  background-color: #111;
+}
+.active
+{
+  background-color: #2E9AFE;
+}
+.right
+{
+  float: right;
+}
+/*Navigationsbarende*/
+*
+{
+margin: 0px;
+padding: 0px;
+}
+body
+{
+  background-color: #3A3A3A;
+/*  background-color: #E6E6E6;*/
+}
+img
+{
+	filter: grayscale(0%);
+	transition: 1s;
+}
+img:hover
+{
+	filter: grayscale(100%);
+	transition: 1s;
+}
+
+.div-home1
+{
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 300px;
+  max-height: 380px;
+  background-color: #333;
+  padding: 40px;
+}
+.div-home2
+{
+  float: right;
+  height: 260px;
+  width: 450px;
+  background-color: #232323;
+  padding: 20px;
+  color: white;
+}
+.div-foto1
+{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.div-foto2
+{
+  margin: 100px;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #333;
+  text-align: center;
+}
+.div-foto3
+{
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  background-color: #333;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.div-contact1
+{
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #333;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.div-contact2
+{
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #333;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+a
+{
+  text-decoration: none;
+  color: white;
+}
+div a:hover
+{
+  color: #2E9AFE;
+  transition: 0.2s;
+}
