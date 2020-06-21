@@ -58,7 +58,6 @@ nav
 .text
 {
     flex: 8;
-    margin-left: 5vw;
 }
 .cover
 {
@@ -74,5 +73,6 @@ nav
     {
         margin-top: 5vh;
         text-align: center;
+        max-height: 100px;
     }
 }
